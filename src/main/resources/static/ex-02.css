@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
+	width: 250px;
+}
+table{
+	border-collapse: collapse;
+}
+
+.odd{
+	background-color: #eebbcb;
+}
+.even{
+	background-color: #a0d8ef;
+}
+
+#price{
+	width: 50px;
+	margin: 10px 0;
+}
