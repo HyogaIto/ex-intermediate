@@ -21,6 +21,8 @@ public class HotelService {
 	@Autowired
 	private HotelRepository hotelRepository;
 	
+
+	
 	/**
 	 * ホテル情報の全件検索を行う.
 	 * 
