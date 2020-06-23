@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+th{
+	width: 150px;
+	text-align: left;
+}
+td{
+	width: 150px;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 15px 0;
+}
+
+.odd{
+	background-color: #eebbcb;
+}
+.even{
+	background-color: #a0d8ef;
+}
+
+#color{
+	 width: 70px;
+	 height: 30px;
+	 margin: 0 0 0 30px;
+}
