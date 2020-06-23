@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>衣類検索</h1>
+<form th:action="@{/ex03/search}" method="post">
+<input type="radio" name="gender" value="man">Mon 
+<input type="radio" name="gender" value="woman"> Woman
+<select name="color">
+<option value="red">赤
+<option value="blue">青
+<option value="yellow">黄
+<option value="white">白
+</select>
+<button>検索</button>
+</form>
+
+
+</body>
+</html>
